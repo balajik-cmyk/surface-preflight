@@ -35,7 +35,7 @@ That writes:
 .cursor/rules/surface-preflight.mdc
 ```
 
-Commit those files in their repo. The GitHub repo is private, so teammates need access to `balajik-cmyk/surface-preflight`.
+Commit those files in their repo.
 
 ## Check it
 
