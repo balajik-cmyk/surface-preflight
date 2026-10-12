@@ -1,0 +1,16 @@
+{
+  "name": "surface-preflight",
+  "owner": {
+    "name": "balajik-cmyk",
+    "url": "https://github.com/balajik-cmyk"
+  },
+  "description": "Install Surface Preflight as a Claude plugin.",
+  "plugins": [
+    {
+      "name": "surface-preflight",
+      "source": "./",
+      "description": "Audit Birdeye copy and Storybook before commit or push.",
+      "keywords": ["birdeye", "copy", "storybook", "commit", "preflight"]
+    }
+  ]
+}

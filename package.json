@@ -1,0 +1,16 @@
+{
+  "name": "surface-preflight",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cursor skill that audits Birdeye copy and Storybook before commit or push.",
+  "bin": {
+    "surface-preflight": "./scripts/install.sh"
+  },
+  "files": [
+    "SKILL.md",
+    "reference.md",
+    "cursor-rule.mdc",
+    "scripts/install.sh",
+    "README.md"
+  ]
+}

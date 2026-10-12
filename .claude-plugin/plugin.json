@@ -1,0 +1,13 @@
+{
+  "name": "surface-preflight",
+  "description": "Audit Birdeye copy and Storybook before commit or push.",
+  "version": "1.0.0",
+  "author": {
+    "name": "balajik-cmyk",
+    "url": "https://github.com/balajik-cmyk"
+  },
+  "homepage": "https://github.com/balajik-cmyk/surface-preflight",
+  "repository": "https://github.com/balajik-cmyk/surface-preflight",
+  "keywords": ["birdeye", "copy", "storybook", "commit", "preflight"],
+  "skills": ["./"]
+}

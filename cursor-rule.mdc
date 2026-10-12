@@ -1,0 +1,19 @@
+---
+description: Before commit or push, run Surface Preflight tables and pause on copy or Storybook misses
+alwaysApply: true
+---
+
+# Surface Preflight
+
+When the user says **commit**, **push**, or **preflight this commit**, follow [`.cursor/skills/surface-preflight/SKILL.md`](../skills/surface-preflight/SKILL.md).
+
+1. Read the staged diff (`commit`) or the unpushed range (`push`).
+2. Print the copy table and the Storybook table.
+3. If any row is a miss, do **not** run `git commit` or `git push`. Say exactly:
+
+   Okay, I'm attempting to commit, but these are the issues I'm seeing from copy, Storybook, and the UI that you build. Do you want to fix and then recommit again?
+
+4. Wait. Fix and recommit only if they say yes. Commit anyway only if they say no.
+5. If both tables are clean or N/A, then commit or push as they asked.
+
+`preflight this commit` is tables only — no git write.
